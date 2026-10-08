@@ -1,0 +1,11 @@
+---
+import type { games } from '../data/studio';
+interface Props { game: typeof games[number] }
+const { game } = Astro.props;
+---
+<article class:list={['game-card', game.theme]} id={game.id}>
+  <div class="game-art"><img src={game.art} alt="" width="800" height="500" loading="lazy" /><span class="art-label">Original concept artwork</span><span class="game-number" aria-hidden="true">{game.number}</span></div>
+  <div class="game-copy"><span class="eyebrow">Original game</span><h3>{game.title}</h3><p>{game.description}</p>
+    <details><summary>Project notes <span aria-hidden="true">+</span></summary><p>{game.note}</p><p class="fine-print">This visual is a studio-created title study, not a gameplay screenshot. Release information and store links have not been announced here.</p></details>
+  </div>
+</article>
