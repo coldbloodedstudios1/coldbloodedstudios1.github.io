@@ -13,6 +13,7 @@ Validated on 8 October 2026 using Node 24.19, Astro 7.3.8 and Chromium through P
 - Visual review: inspected full-page desktop and mobile screenshots; mascot species, full silhouettes and red eyes retained; cards and sections stack without clipping.
 - Original README untouched; source project files and original artwork untouched.
 - npm dependency audit at install: zero reported vulnerabilities.
+- GitHub Linux build workflow for the implementation commit: successful check/build and review artifact upload. Main remains at the initial commit; a pre-existing Pages run on main predates this work and its publication settings were not changed.
 
 See results.json for the machine-readable report. Screenshots are generated locally in qa/screenshots and ignored by Git. These checks do not replace a manual screen-reader audit, real-device testing or hosted performance measurements before publication.
 

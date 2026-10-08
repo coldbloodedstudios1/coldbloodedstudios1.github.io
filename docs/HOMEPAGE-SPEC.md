@@ -63,4 +63,6 @@ Inspected remote: one branch `main`, starting commit `dd008c45d92072f86b2f5a37fd
 
 ## Next milestone after review
 
+Post-push verification: GitHub has a pre-existing automatic Pages build for the original main commit, completed before this work. Its settings were not changed. Main still points to the original commit; the review branch runs only the added build workflow. Approval is required before changing that existing publication setup to publish Astro output.
+
 Approve visual layout/copy; supply game summaries, rights-cleared screenshots and store/project links; confirm mascot selection and final logo; confirm fan-project wording, contact and social destinations. Add focused game detail routes when content exists. Recheck keyboard/contrast/mobile/performance, replace draft metadata with approved social/canonical metadata, then request approval for the concrete production result. Only after approval add an explicit Pages deployment workflow and merge. No deployment exists in the present milestone.
