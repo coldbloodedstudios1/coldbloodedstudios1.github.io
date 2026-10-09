@@ -1,0 +1,34 @@
+{
+  "results": [
+    {
+      "width": 320,
+      "overflow": false,
+      "accessibilityViolations": 0,
+      "keyboardDisclosure": "pass",
+      "screenshot": "home-320.png"
+    },
+    {
+      "width": 390,
+      "overflow": false,
+      "accessibilityViolations": 0,
+      "keyboardDisclosure": "pass",
+      "screenshot": "home-390.png"
+    },
+    {
+      "width": 768,
+      "overflow": false,
+      "accessibilityViolations": 0,
+      "keyboardDisclosure": "pass",
+      "screenshot": "home-768.png"
+    },
+    {
+      "width": 1440,
+      "overflow": false,
+      "accessibilityViolations": 0,
+      "keyboardDisclosure": "pass",
+      "screenshot": "home-1440.png"
+    }
+  ],
+  "noJavaScript": "navigation and disclosures pass",
+  "caveat": "Automated checks are not a full manual screen-reader or WCAG conformance audit."
+}
